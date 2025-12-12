@@ -11,10 +11,11 @@ import lombok.experimental.FieldDefaults;
 public class Plan {
 
     Long id;
-    String nme;
+    String name;
     String stringPriceId;
     Integer maxProjects;
-    Integer maxPreview;
+    Integer maxTokensPerDay;
+    Integer maxPreviews;
     Boolean unlimitedAi;
     Boolean active;
 }
